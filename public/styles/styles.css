@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#webname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238 234 234);
+}
+
+#webname img {
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+}
+
+#webname p {
+    font-size: 300%;
+    font-family: 'Pacifico', cursive;
+    color: #0b226c;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b226c;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar a {
+    display: block;
+    border-radius: 9px;
+    text-decoration: none;
+    margin: 7px 20px;
+    padding: 4px 20px;
+    color: white;
+}
+
+#nav ul li a:hover {
+    background-color: rgb(238 234 234);
+    color: black;
+}
+
+table,
+th,
+td {
+    border: 0.5rem solid white;
+}
+
+table {
+    width: 99%;
+    height: 73vh;
+    border-collapse: collapse;
+    /* margin-top: 34px; */
+    margin-left: 5px;
+    margin-right: 4px;
+    background-color: rgb(166, 155, 155);
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+td,
+th {
+    padding: 7px;
+}
+
+tr:nth-child(even) {
+    background-color: #0b226c;
+}
+
+/* th:hover {
+    background-color: black;
+    color: wheat;
+} */
+
+td:hover {
+    background-color: black;
+    color: wheat;
+}
+
+.btn1,
+.btn2 {
+    height: 100%;
+    width: 100%;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.btn1 {
+    background-color: rgb(166, 155, 155);
+}
+
+.btn2 {
+    background-color: #0b226c;
+}
+
+#submit {
+    border: none;
+
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #0b226c;
+}
+
+#sub:hover {
+    background-color: rgb(166, 155, 155);
+}
+
+.top-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(238 234 234);
+}
+
+.top-heading>p {
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-size: 2rem;
+    color: #0b226c;
+}

@@ -1,0 +1,25 @@
+h1,
+h2 {
+    font-size: 2rem;
+    color: #0b226c;
+    text-align: center;
+    margin: 1rem 0.2rem;
+}
+
+#para4 {
+    list-style: disc;
+    margin: 2rem;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+#para1,
+#para2,
+#para3 {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+img {
+    float: right;
+}

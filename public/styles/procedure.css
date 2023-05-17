@@ -1,0 +1,29 @@
+h1 {
+    font-size: 2rem;
+    color: #0b226c;
+    text-align: center;
+    margin: 1rem 0.2rem;
+}
+
+#div1 {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+#div1 ol {
+    padding: 0 2rem;
+}
+
+#div1 p {
+    margin: 2rem 0;
+}
+
+span {
+    font-weight: bolder;
+}
+
+img {
+    height: 50vh;
+    width: 60vh;
+    float: right;
+}

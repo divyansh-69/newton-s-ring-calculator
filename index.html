@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton's Ring | Calculate the radius of any plano-convex lens</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div id="webname">
+            <img src="images/rings.gif" alt="Newton's Rings">
+            <p>Newton's Rings</p>
+        </div>
+    </section>
+    <section>
+        <nav id="nav">
+            <ul id="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="theory.html">Theory</a></li>
+                <li><a href="procedure.html">Procedure</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="top-heading">
+        <p>Type in the values and get the radius of curvature of the lens</p>
+    </div>
+    <section id="middle">
+        <div style="overflow-x:auto;">
+            <form action="/" method="post">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Observation No.</th>
+                            <th>No. of rings (n)</th>
+                            <th colspan="2">Microscope Reading (LHS)</th>
+                            <th colspan="2">Microscope Reading (RHS)</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>MSD</th>
+                            <th>VSD</th>
+                            <th>MSD</th>
+                            <th>VSD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>20</td>
+
+                            <td><input type="text" class="btn1" name="LHSMSD1"></td>
+                            <td><input type="text" class="btn1" name="LHSVSD1"></td>
+                            <td><input type="text" class="btn1" name="RHSMSD1"></td>
+                            <td><input type="text" class="btn1" name="RHSVSD1"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>18</td>
+                            <td><input type="text" class="btn2" name="LHSMSD2"></td>
+                            <td><input type="text" class="btn2" name="LHSVSD2"></td>
+                            <td><input type="text" class="btn2" name="RHSMSD2"></td>
+                            <td><input type="text" class="btn2" name="RHSVSD2"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>16</td>
+                            <td><input type="text" class="btn1" name="LHSMSD3"></td>
+                            <td><input type="text" class="btn1" name="LHSVSD3"></td>
+                            <td><input type="text" class="btn1" name="RHSMSD3"></td>
+                            <td><input type="text" class="btn1" name="RHSVSD3"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>14</td>
+                            <td><input type="text" class="btn2" name="LHSMSD4"></td>
+                            <td><input type="text" class="btn2" name="LHSVSD4"></td>
+                            <td><input type="text" class="btn2" name="RHSMSD4"></td>
+                            <td><input type="text" class="btn2" name="RHSVSD4"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12</td>
+                            <td><input type="text" class="btn1" name="LHSMSD5"></td>
+                            <td><input type="text" class="btn1" name="LHSVSD5"></td>
+                            <td><input type="text" class="btn1" name="RHSMSD5"></td>
+                            <td><input type="text" class="btn1" name="RHSVSD5"></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>10</td>
+                            <td><input type="text" class="btn2" name="LHSMSD6"></td>
+                            <td><input type="text" class="btn2" name="LHSVSD6"></td>
+                            <td><input type="text" class="btn2" name="RHSMSD6"></td>
+                            <td><input type="text" class="btn2" name="RHSVSD6"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="8" id="sub"><input type="submit" class="btn1"
+                                    value="Calculate Radius of Plano Convex Lens" id="submit"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </section>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+</body>
+
+</html>
