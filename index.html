@@ -1,23 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newton's Ring | Calculate the radius of any plano-convex lens</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="C:\Users\ASUS\OneDrive\Documents\Newton's Rings (2)[1]\Newton's Rings\Newton's Rings\public\styles\styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <!-- data-main attribute tells require.js to load
+             scripts/main.js after require.js loads. -->
+             <script data-main="scripts/main" src="scripts/require.js"></script>
+
+
+   
+
+
 </head>
 
 <body>
     <section>
         <div id="webname">
-            <img src="images/rings.gif" alt="Newton's Rings">
+            <img src="C:\Users\ASUS\OneDrive\Documents\Newton's Rings (2)[1]\Newton's Rings\Newton's Rings\public\images\rings.gif" alt="Newton's Rings">
             <p>Newton's Rings</p>
         </div>
     </section>
@@ -25,8 +33,8 @@
         <nav id="nav">
             <ul id="navbar">
                 <li><a href="#">Home</a></li>
-                <li><a href="theory.html">Theory</a></li>
-                <li><a href="procedure.html">Procedure</a></li>
+                <li><a href="C:\Users\ASUS\OneDrive\Documents\Newton's Rings (2)[1]\Newton's Rings\Newton's Rings\public\theory.html">Theory</a></li>
+                <li><a href="C:\Users\ASUS\OneDrive\Documents\Newton's Rings (2)[1]\Newton's Rings\Newton's Rings\public\procedure.html">Procedure</a></li>
             </ul>
         </nav>
     </section>
@@ -104,7 +112,7 @@
                             <td><input type="text" class="btn2" name="RHSVSD6"></td>
                         </tr>
                         <tr>
-                            <td colspan="8" id="sub"><input type="submit" class="btn1"
+                            <td colspan="6" id="sub"><input type="submit" class="btn1"
                                     value="Calculate Radius of Plano Convex Lens" id="submit"></td>
                         </tr>
                     </tbody>
@@ -112,7 +120,15 @@
             </form>
         </div>
     </section>
+    <!-- Add this element to your HTML structure -->
+<section id="result-section">
+    <p>Result:</p>
+    <div id="result"></div>
+</section>
+
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    
+    <script src="app.js"></script>
 
 </body>
 

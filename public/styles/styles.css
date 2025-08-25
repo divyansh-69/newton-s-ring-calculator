@@ -99,6 +99,7 @@ td:hover {
     color: white;
     text-align: center;
     font-family: 'Wix Madefor Text', sans-serif;
+    border: none;
 }
 
 .btn1 {
@@ -136,3 +137,37 @@ td:hover {
     font-size: 2rem;
     color: #0b226c;
 }
+/* Add this CSS to your existing styles.css or create a new CSS file */
+
+/* Styling for the result section */
+#result-section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #result {
+    color: #0078d4;
+  }
+  
+  /* Styling for the result section hover (if needed) */
+  #result-section:hover {
+    /* Add hover styles here if necessary */
+  }
+  
+  /* Styling for the result element within the result section */
+  #result {
+    /* You can adjust the styling to your preference */
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e4e4e4;
+    border: 1px solid #ccc;
+  }
+  
